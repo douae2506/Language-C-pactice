@@ -2,6 +2,7 @@
 Some mini projects I completed during a C programming class.
 
 # 1. Factorial Calculator in C
+URL = https://github.com/douae2506/Language-C-pactice/blob/main/Factorielle.c
 
 ## Overview
 This project is a simple **C program** that calculates the factorial of a number entered by the user.  
