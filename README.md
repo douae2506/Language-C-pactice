@@ -85,6 +85,7 @@ This project was created to practice fundamental programming concepts and improv
 ---
 
 # 3. Number Guessing Game
+URL = https://github.com/douae2506/Language-C-pactice/blob/main/jeu.c
  
 A simple terminal-based number guessing game written in C. The player tries to guess a secret number, receiving hints after each attempt until they get it right.
  
