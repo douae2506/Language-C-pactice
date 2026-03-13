@@ -81,3 +81,82 @@ Max is : 12
 ## Learning Purpose
 This project was created to practice fundamental programming concepts and improve problem-solving skills in **C programming**.
 
+
+---
+
+# 3. Number Guessing Game
+ 
+A simple terminal-based number guessing game written in C. The player tries to guess a secret number, receiving hints after each attempt until they get it right.
+ 
+---
+ 
+## 📖 How It Works
+ 
+The program picks a fixed target number. The player is repeatedly prompted to enter a guess, and after each attempt the game tells them whether their guess was **too small**, **too big**, or correct. The loop continues until the player guesses the exact number.
+ 
+---
+ 
+## Getting Started
+ 
+### Prerequisites
+ 
+- A C compiler (e.g. `gcc`)
+ 
+### Compile
+ 
+```bash
+gcc jeu.c -o jeu
+```
+ 
+### Run
+ 
+```bash
+./jeu
+```
+ 
+---
+ 
+## Gameplay Example
+ 
+```
+Guess the number: 10
+Too Small
+Guess the number: 40
+Too big
+Guess the number: 25
+Bingo!! You Got it
+```
+ 
+---
+ 
+## Project Structure
+ 
+```
+.
+└── jeu.c   # Main source file
+```
+ 
+---
+ 
+## Configuration
+ 
+The target number is defined as a macro at the top of `jeu.c`:
+ 
+```c
+#define b 25
+```
+ 
+Change the value of `b` to set a different secret number before compiling.
+ 
+---
+ 
+## Built With
+ 
+- **C** — Standard C (C99 compatible)
+- **stdio.h** — For `printf` and `scanf`
+ 
+---
+ 
+## License
+ 
+This project is open source and free to use for learning purposes.
