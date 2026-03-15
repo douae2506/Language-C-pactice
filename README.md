@@ -155,6 +155,48 @@ Change the value of `b` to set a different secret number before compiling.
  
 - **C** — Standard C (C99 compatible)
 - **stdio.h** — For `printf` and `scanf`
+
+---
+
+# 4. Array Addition Program in C
+
+## Description
+This C program allows the user to enter two arrays of integers and creates a third array containing the result of adding the corresponding elements of the first two arrays.
+
+If the arrays are not the same size, the program continues copying the remaining elements from the larger array into the third array.
+
+## Features
+- User inputs the size of two arrays
+- User fills the arrays with integer values
+- The program adds corresponding elements
+- The result is stored in a third array
+- Handles arrays of different sizes
+
+## How It Works
+1. The user enters the size of the first array `n1`.
+2. The user enters the size of the second array `n2`.
+3. The program asks the user to fill both arrays.
+4. A third array `T3` is created.
+5. The program:
+   - Adds elements with the same index
+   - Copies remaining elements from the larger array if sizes are different.
+6. The result array is printed.
+
+Example:
+
+T1 = [1,2,3]  
+T2 = [4,5,6]
+
+Output:
+
+T3 = [5,7,9]
+
+## 💻 Technologies Used
+- Language: C
+- Concepts: Arrays, Loops, User Input, Conditional Statements
+
+##  Author
+Created by **Douae**
  
 ---
  
