@@ -159,6 +159,7 @@ Change the value of `b` to set a different secret number before compiling.
 ---
 
 # 4. Array Addition Program in C
+URL = https://github.com/douae2506/Language-C-pactice/blob/main/Array%20Addition%20Program%20in%20C.c
 
 ## Description
 This C program allows the user to enter two arrays of integers and creates a third array containing the result of adding the corresponding elements of the first two arrays.
